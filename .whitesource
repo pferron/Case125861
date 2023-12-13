@@ -31,6 +31,12 @@
           "config:base",
           "github>whitesource/merge-confidence:beta"
           ],
+    "packageRules": [
+      {
+		    "groupName": "High Merge Confidence",
+        "matchConfidence": ["high", "very high"]        
+      }
+    ],
     "workflowRules": {
       "enabled": true
     }
