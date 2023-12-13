@@ -33,7 +33,7 @@
           ],
     "packageRules": [
       {
-		    "groupName": "High Merge Confidence",
+	"groupName": "High Merge Confidence",
         "matchConfidence": ["high", "very high"]        
       }
     ],
